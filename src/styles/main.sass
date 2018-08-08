@@ -4,7 +4,26 @@ $mauvang: #ffdd99 // Vang
 $maudo: #d74680 // Đỏ 
 $mauxanh: #3c5499 // Xanh 
 $maucam: #C86A40 // Cam
-
+// Header
+.menu
+    background: $mautim
+    padding-top: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    ul
+        min-width: 500px
+        li 
+            display: inline-block
+            padding: 15px 40px
+            float: right
+            a 
+                color: #fff
+                text-decoration: none
+            &:hover
+                border-radius: 5px
+                background: darken($mautim,8)
+//**** END Header ****
 // Home Page
 //**** Section Home Slider ****
 .home_slider
