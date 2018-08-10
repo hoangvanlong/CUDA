@@ -59,6 +59,25 @@ $maucam: #C86A40 // Cam
         text-transform: uppercase
         letter-spacing: .3rem
         font-weight: bold
+        position: relative
+        margin-bottom: 2rem
+        &:before,
+        &:after
+            content: ''
+            display: block
+            position: absolute
+            background: #fff
+            transform: translateX(-50%)
+            left: 50%
+        &:before
+            width: 120px
+            height: 3px
+            bottom: -12px
+        &:after
+            width: 20px
+            height: 10px
+            bottom: -15px
+        
     p 
         font-size: 1rem
     h3 
